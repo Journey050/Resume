@@ -1,0 +1,91 @@
+
+body {
+  background: linear-gradient(rgb(122, 220, 178), rgb(12,127,127));
+  margin: 0px;
+}
+header {
+  background-color: rgb(18, 204, 204);
+}
+h1 {
+  color: azure;
+  font-size: 50px;
+  font-family: Georgia, serif;
+  text-align: center;  
+}
+h2 {
+  background-color: #a1ebeb;
+  font-family: georgia, serif;
+  text-align: center;
+  text-decoration: underline;
+}
+p {
+  text-align: center;
+  padding: 5px;
+}
+h3 {
+  background-color: rgb(21, 214, 214);
+  text-align: center;
+  font-family: georgia, Helvetica, serif;
+  font-size: 25px;
+  color: azure;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+hr {
+  background-color: black;
+  width: 100vw;
+  height: 5px;
+  position: absolute;   
+}
+.gallery {
+  display: inline-block;
+}
+.maworkflow {
+  text-align: center;
+  text-decoration: underline;
+  color:antiquewhite;
+  font-family: georgia, serif;
+  font-size: 1em;
+  padding: 10px;
+   
+}
+.firstportfolio {
+  text-align: center;
+  text-decoration: underline;
+  color: antiquewhite;
+  font-family: georgia, serif;
+  font-size: 1em;
+  padding: 10px;
+}
+.maworkflow:hover{
+  color:#3B5998;
+
+}
+.firstportfolio:hover{
+  color:#3B5998;
+
+}
+img{
+  width: 200px;
+  height: 200px; 
+  padding: 5px;   
+  
+}
+
+footer{
+  color: azure;
+  padding: 1em;
+  width: 100%;
+  bottom: 1%;
+  position: static;
+  background-color: orange;
+  font-family: Georgia, sans-serif;
+  font-size: 10px;
+}
+
+@media (hover: hover) {
+  abbr:hover {
+    color: limegreen;
+    transition-duration: 1s;
+  }
+}
